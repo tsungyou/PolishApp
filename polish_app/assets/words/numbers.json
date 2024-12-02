@@ -1,0 +1,12 @@
+[
+    {"id": 1, "word": "jeden", "definition": "one", "mandarin": "一"},
+    {"id": 2, "word": "dwa", "definition": "two", "mandarin": "二"},
+    {"id": 3, "word": "trzy", "definition": "three", "mandarin": "三"},
+    {"id": 4, "word": "cztery", "definition": "four", "mandarin": "四"},
+    {"id": 5, "word": "pięć", "definition": "five", "mandarin": "五"},
+    {"id": 6, "word": "sześć", "definition": "six", "mandarin": "六"},
+    {"id": 7, "word": "siedem", "definition": "seven", "mandarin": "七"},
+    {"id": 8, "word": "osiem", "definition": "eight", "mandarin": "八"},
+    {"id": 9, "word": "dziewięć", "definition": "nine", "mandarin": "九"},
+    {"id": 10, "word": "dziesięć", "definition": "ten", "mandarin": "十"}
+]
