@@ -1,0 +1,20 @@
+[
+    {"id": 1, "word": "odzież", "definition": "clothing", "mandarin": "衣服"},
+    {"id": 2, "word": "czapka", "definition": "hat", "mandarin": "帽子"},
+    {"id": 3, "word": "koszula", "definition": "shirt", "mandarin": "襯衫"},
+    {"id": 4, "word": "spodnie", "definition": "pants", "mandarin": "褲子"},
+    {"id": 5, "word": "sukienka", "definition": "dress", "mandarin": "裙子"},
+    {"id": 6, "word": "buty", "definition": "shoes", "mandarin": "鞋子"},
+    {"id": 7, "word": "krawat", "definition": "necktie", "mandarin": "領帶"},
+    {"id": 8, "word": "spodnie", "definition": "pants", "mandarin": "長褲"},
+    {"id": 9, "word": "półbuty", "definition": "topless boot", "mandarin": "皮鞋、淑女鞋等沒有鞋面的鞋"},
+    {"id": 10, "word": "koszula", "definition": "shirt", "mandarin": "襯衫"},
+    {"id": 11, "word": "bluzka", "definition": "blouse", "mandarin": "女用襯衫/內搭衣"},
+    {"id": 12, "word": "bluza", "definition": "hoodie", "mandarin": "連帽衫/帽T"},
+    {"id": 13, "word": "spódnica", "definition": "skirt", "mandarin": "裙子"},
+    {"id": 14, "word": "kapelusz", "definition": "hat", "mandarin": "帽子(有帽緣的)"},
+    {"id": 15, "word": "czapka", "definition": "caps", "mandarin": "帽子(無帽緣的)"},
+    {"id": 16, "word": "rękawiczki", "definition": "gloves", "mandarin": "手套"},
+    {"id": 17, "word": "skarpetki", "definition": "socks", "mandarin": "襪子"},
+    {"id": 18, "word": "szalik", "definition": "scarf", "mandarin": "圍巾"}
+]

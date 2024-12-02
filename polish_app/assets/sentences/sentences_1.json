@@ -1,0 +1,12 @@
+[
+    {"id": 1, "sentence": "Jaka jest ta czapka?", "translation": "What kind of hat is this?", "mandarin": "這是怎麼樣的一頂帽子？", "vocabs": ["czapka", "hat", "ta", "jaka", "jest"]},
+    {"id": 2, "sentence": "Bardzo dobra i tania!", "translation": "Very good and cheap!", "mandarin": "非常棒且便宜！", "vocabs": ["bardzo", "dobra", "i", "tani", "tania"]},
+    {"id": 3, "sentence": "A ile ona kosztuje?", "translation": "And how much does it cost?", "mandarin": "它要多少錢？", "vocabs": ["a", "ile", "ona", "kosztuje"]},
+    {"id": 4, "sentence": "Dwieście zlotych?", "translation": "Two hundred zloty?", "mandarin": "兩百？", "vocabs": ["dwiescie", "zlotych"]},
+    {"id": 5, "sentence": "Jak myślisz, ladny jest ten sweter?", "translation": "What do you think, is this sweater nice?", "mandarin": "你覺得這件毛衣好看嗎？", "vocabs": ["jakie", "myslisz", "ladny", "tem", "sweter"]},
+    {"id": 6, "sentence": "Myślę, że tak/ładny.", "translation": "I think so/nice.", "mandarin": "我覺得是的/好看的。", "vocabs": ["mysle", "ze", "tak", "ladny"]},
+    {"id": 7, "sentence": "", "translation": "", "mandarin": "", "vocabs": []},
+    {"id": 8, "sentence": "", "translation": "", "mandarin": "", "vocabs": []},
+    {"id": 9, "sentence": "", "translation": "", "mandarin": "", "vocabs": []},
+    {"id": 10, "sentence": "", "translation": "", "mandarin": "", "vocabs": []}    
+] 

@@ -1,0 +1,4 @@
+[
+    {"id": 1, "sentence": "Cześć, jak się masz?", "translation": "Hello, how are you?", "mandarin": "你好，你怎麼樣？", "vocabs": ["cześć", "jak", "się", "masz"]},
+    {"id": 2, "sentence": "Dziękuję bardzo!", "translation": "Thank you very much!", "mandarin": "謝謝！", "vocabs": ["dziękuję", "bardzo"]}
+]
