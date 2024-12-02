@@ -1,7 +1,7 @@
 [
-  {"word": "Cześć", "definition": "Hello", "mandarin": "你好"},
-  {"word": "Dziękuję", "definition": "Thank you", "mandarin": "謝謝"},
-  {"word": "Proszę", "definition": "Please/You're welcome", "mandarin": "請"},
-  {"word": "Tak", "definition": "Yes", "mandarin": "是"},
-  {"word": "Nie", "definition": "No", "mandarin": "不"}
+  {"word": "Cześć", "definition": "Hello", "mandarin": "你好", "examples": "Cześć, jak się masz?"},
+  {"word": "Dziękuję", "definition": "Thank you", "mandarin": "謝謝", "examples": "Dziękuję bardzo!"},
+  {"word": "Proszę", "definition": "Please/You're welcome", "mandarin": "請", "examples": "Proszę bardzo!"},
+  {"word": "Tak", "definition": "Yes", "mandarin": "是", "examples": "Tak, dobrze."},
+  {"word": "Nie", "definition": "No", "mandarin": "不", "examples": "Nie, nie umiem."}
 ]

@@ -2,14 +2,14 @@ class Word {
   final int? id;
   final String word;
   final String definition;
-  final String? partOfSpeech;
+  final String? mandarin;
   final String? examples;
 
   Word({
     this.id,
     required this.word,
     required this.definition,
-    this.partOfSpeech,
+    this.mandarin,
     this.examples,
   });
 
@@ -18,7 +18,7 @@ class Word {
       'id': id,
       'word': word,
       'definition': definition,
-      'partOfSpeech': partOfSpeech,
+      'mandarin': mandarin,
       'examples': examples,
     };
   }
@@ -28,7 +28,7 @@ class Word {
       id: map['id'],
       word: map['word'],
       definition: map['definition'],
-      partOfSpeech: map['partOfSpeech'],
+      mandarin: map['mandarin'],
       examples: map['examples'],
     );
   }

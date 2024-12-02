@@ -13,6 +13,7 @@ class DictionaryPage extends StatefulWidget {
 class _DictionaryPageState extends State<DictionaryPage> {
   String searchQuery = '';
   List<Word> words = [];
+  bool showMandarin = false;
 
   @override
   void initState() {
@@ -51,6 +52,30 @@ class _DictionaryPageState extends State<DictionaryPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Dictionary', 
+          style: TextStyle(fontFamily: 'NotoSansSC'),
+        ),
+        leading: Container(
+          width: 80,
+          padding: EdgeInsets.symmetric(horizontal: 4),
+          child: TextButton(
+            style: TextButton.styleFrom(
+              padding: EdgeInsets.zero,
+              minimumSize: Size.zero,
+            ),
+            onPressed: () {
+              setState(() {
+                showMandarin = !showMandarin;
+              });
+            },
+            child: Text(
+              '中/英',
+              style: TextStyle(color: Colors.black),
+            ),
+          ),
+        ),
+      ),
       body: Column(
         children: [
           Padding(
@@ -77,7 +102,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
                 final word = words[index];
                 return ListTile(
                   title: Text(word.word),
-                  subtitle: Text(word.definition),
+                  subtitle: Text(showMandarin ? (word.mandarin ?? 'No translation') : word.definition),
                   onTap: () {
                     showDialog(
                       context: context,
@@ -90,7 +115,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Text('Definition:', style: TextStyle(fontWeight: FontWeight.bold)),
-                                Text(word.definition),
+                                Text(showMandarin ? (word.mandarin ?? 'No translation') : word.definition),
                                 // Add more word details here if needed
                               ],
                             ),
