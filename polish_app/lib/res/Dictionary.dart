@@ -22,7 +22,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
   }
 
   Future<void> _loadWords() async {
-    final String response = await rootBundle.loadString('words.json');
+    final String response = await rootBundle.loadString('words/words.json');
     final List<dynamic> data = json.decode(response);
     setState(() {
       words = data.map((item) => Word.fromMap(item)).toList();
