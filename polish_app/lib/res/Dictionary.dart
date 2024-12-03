@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import '../models/word.dart';
+import 'package:polish_app/models/word.dart';
 import 'package:google_fonts/google_fonts.dart';
 class DictionaryPage extends StatefulWidget {
   const DictionaryPage({super.key});

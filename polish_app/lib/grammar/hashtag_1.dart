@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:polish_app/models/table.dart';
 import 'package:polish_app/models/grammar_example_sentences.dart';
 import 'package:polish_app/models/line_management.dart';
+import 'package:polish_app/models/questions.dart';
+import 'package:polish_app/assets/questions/q1.dart';
+
 class Hashtag1 extends StatefulWidget {
   const Hashtag1({super.key});
 
@@ -11,6 +14,7 @@ class Hashtag1 extends StatefulWidget {
 
 class _Hashtag1State extends State<Hashtag1> {
   final double _fontSize = 16;
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,46 +50,13 @@ class _Hashtag1State extends State<Hashtag1> {
             ),
             const SizedBox(height: 24),
             PaddingLineText(line: '例如:'),
-            Container(
-              padding: const EdgeInsets.all(16),
-              margin: const EdgeInsets.symmetric(horizontal: 16.0),
-              decoration: BoxDecoration(
-                color: Colors.grey[100],
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Text(
-                    'Example Sentences:',
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  const SizedBox(height: 16),
-                  ExampleSentence(
-                    number: 1,
-                    sentence: 'To jest małe dziecko.',
-                    hiddenWord: 'małe',
-                    translation: 'This is a small child.',
-                  ),
-                  const SizedBox(height: 12),
-                  ExampleSentence(
-                    number: 2,
-                    sentence: 'Mam dobre auto.',
-                    hiddenWord: 'dobre',
-                    translation: 'I have a good car.',
-                  ),
-                  const SizedBox(height: 12),
-                  ExampleSentence(
-                    number: 3,
-                    sentence: 'To jest tanie mieszkanie.',
-                    hiddenWord: 'tanie',
-                    translation: 'This is a cheap apartment.',
-                  ),
+            Questions(
+                title: '1',
+                sentences: [
+                    question_set_1[0],
+                    question_set_1[1],
+                    question_set_1[2],
                 ],
-              ),
             ),
           ],
         ),
