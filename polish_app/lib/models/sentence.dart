@@ -1,6 +1,5 @@
 class Sentence {
     final int? id;
-    final String? title;
     final String sentence;
     final String translation;
     final String mandarin;
@@ -8,7 +7,6 @@ class Sentence {
 
     Word({
         this.id,
-        this.title,
         required this.sentence,
         required this.translation,
         required this.mandarin,
@@ -18,7 +16,6 @@ class Sentence {
     factory Sentence.fromMap(Map<String, dynamic> map) {
         return Sentence(
             id: map['id'],
-            title: map['title'],
             sentence: map['sentence'],
             translation: map['translation'],
             mandarin: map['mandarin'],

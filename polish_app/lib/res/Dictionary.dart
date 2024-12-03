@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import '../models/word.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 class DictionaryPage extends StatefulWidget {
   const DictionaryPage({super.key});
 
@@ -53,8 +53,11 @@ class _DictionaryPageState extends State<DictionaryPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Dictionary', 
-          style: TextStyle(fontFamily: 'NotoSansSC'),
+        title: Text('Dictionary', 
+            style: GoogleFonts.notoSansSc(
+            fontSize: 24,
+            fontWeight: FontWeight.w500,
+          ),
         ),
         leading: Container(
           width: 80,
